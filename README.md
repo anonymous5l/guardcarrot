@@ -6,6 +6,8 @@
 
 存档方式其实是魔改了sqlite 用 xxtea加密了数据库文件所以只要把KEY找到就可以还原原本的sqlite文件
 
+目前无法保证KEY是唯一的 感兴趣的小伙伴可以自己测试下如果解不了密 欢迎提`issues`
+
 获取openid对应的表 `select value from db_openid_list where key = curuseropenid` 查到的ID及为存档表
 
 存档表已知字段:
